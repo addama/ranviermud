@@ -1,6 +1,9 @@
 {
-  "port": 4000,
+  "port": 8052,
   "bundles": [
+	"addama",
+	"bundle-example-lib",
+	"telnet-networking"
   ],
   "dataSources": {
     "YamlArea": {
@@ -72,7 +75,7 @@
   "minPlayerNameLength": 3,
   "maxCharacters": 3,
   "reportToAdmins": false,
-  "startingRoom": "limbo:white",
+  "startingRoom": "world:start",
   "moveCommand": "move",
   "skillLag": 2000,
   "defaultMaxPlayerInventory": 16,

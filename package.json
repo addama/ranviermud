@@ -3,14 +3,14 @@
   "version": "2.0.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/shawncplus/ranviermud.git"
+    "url": "git://github.com/addama/ranviermud.git"
   },
   "engines": {
     "node": ">= 10.12.0"
   },
   "license": "MIT",
   "scripts": {
-    "start": "node ./ranvier -v --save=10 --respawn=10",
+    "start": "node ./ranvier --save=10 --respawn=10",
     "init": "node ./util/init-bundles.js",
     "update-bundle-remote": "node ./util/update-bundle-url.js",
     "remove-bundle": "node ./util/remove-bundle.js",

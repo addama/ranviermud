@@ -13,9 +13,3 @@
 [submodule "bundles/bundle-example-lib"]
 	path = bundles/bundle-example-lib
 	url = https://github.com/RanvierMUD/bundle-example-lib
-[submodule "bundles/bundle-example-commands"]
-	path = bundles/bundle-example-commands
-	url = https://github.com/RanvierMUD/bundle-example-commands
-[submodule "bundles/bundle-example-input-events"]
-	path = bundles/bundle-example-input-events
-	url = https://github.com/RanvierMUD/bundle-example-input-events

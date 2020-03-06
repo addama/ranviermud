@@ -1,0 +1,4 @@
+- id: start
+  title: "Starting Room"
+  coordinates: [0, 0, 0]
+  description: "The starting room"

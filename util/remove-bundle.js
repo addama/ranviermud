@@ -24,8 +24,8 @@ if (!fs.existsSync(gitRoot + `/bundles/${bundle}`)) {
 }
 
 console.log("Removing submodule...");
-execSync(`git submodule deinit bundles/${bundle}`, { stdio: 'ignore' });
+execSync(`git submodule deinit -f bundles/${bundle}`, { stdio: 'ignore' });
 execSync(`git rm bundles/${bundle}`, { stdio: 'ignore' });
-execSync(`rm -rf .git/modules/bundles/${bundle}`);
+execSync(`rm -r -force .git/modules/bundles/${bundle}`);
 
 console.log("Submodule removed.\nCommit the removal to git with `git commit -m \"Removed ${bundle} bundle\"`");
