@@ -10,3 +10,6 @@
 [submodule "bundles/progressive-respawn"]
 	path = bundles/progressive-respawn
 	url = https://github.com/RanvierMUD/progressive-respawn
+[submodule "bundles/bundle-example-lib"]
+	path = bundles/bundle-example-lib
+	url = https://github.com/RanvierMUD/bundle-example-lib
