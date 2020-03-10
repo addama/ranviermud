@@ -11,9 +11,10 @@ module.exports = {
 
 		if (prevRoom && prevRoom.getMeta('isPort')) {
 			let destinations = prevRoom.getMeta('destinations');
-			let nextRoom = state.RoomManager.getRoom(destinations[args[0]]);
+			let nextRoom = state.RoomManager.getRoom(destinations[args[0]].id);
 			if (nextRoom) {
 				Logger.log('SAIL:', player.name, args[0], nextRoom.title);
+				Broadcast.sayAt(player, Broadcast.progress(80, 0, 'cyan', '>', ' ', '[]'));
 				player.moveTo(nextRoom, () => {
 					Broadcast.sayAt(player, 'You board a passenger ship to ' + nextRoom.title);
 					state.CommandManager.get('look').execute('', player);

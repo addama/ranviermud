@@ -6,7 +6,7 @@ const { Channel } = require('ranvier').Channel;
 module.exports = [
 	new Channel({
 		name: 'Global',
-		aliases: ['/g', '/1', 'global', '/global'],
+		aliases: ['/g', '/global'],
 		descriptions: 'Global chat',
 		color: ['bold', 'green'],
 		audience: new WorldAudience()
@@ -14,7 +14,7 @@ module.exports = [
 	
 	new Channel({
 		name: 'Local',
-		aliases: ['/say', 'local', '/local', 'say', '.'],
+		aliases: ['/say', 'say', '.'],
 		descriptions: 'Local chat',
 		color: ['bold', 'cyan'],
 		audience: new RoomAudience(),

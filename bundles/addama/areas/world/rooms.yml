@@ -2,12 +2,25 @@
   title: "Starting Room"
   coordinates: [0, 0, 0]
   description: "The starting room"
-- id: port
-  title: "Port"
+- id: portandrews
+  title: "Port Andrews"
+  coordinates: [10, 1, 0]
+  description: "A port"
+  script: "port"
+  metadata: 
+    isPort: true
+    destinations: 
+      - id: "world:portjacobs"
+        title: "Port Jacobs"
+      - id: "world:start"
+        title: "World Start"
+- id: portjacobs
+  title: "Port Jacobs"
   coordinates: [0, 1, 0]
   description: "A port"
   script: "port"
   metadata:
     isPort: true
-    destinations: [ "world:start" ]
-    
+    destinations: 
+      - id: "world:portandrews"
+        title: "Port Andrews"
