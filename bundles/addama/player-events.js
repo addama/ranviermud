@@ -54,6 +54,11 @@ module.exports = {
 			  follower.emit('move', movementCommand);
 			}
 		  }
-		}
+		},
+		
+		save: state => async function (callback) {
+		  await state.PlayerManager.save(this);
+		  if (typeof callback === 'function') callback();
+		},
 	}
 };
