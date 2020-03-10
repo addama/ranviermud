@@ -6,11 +6,9 @@ const ItemUtil = require('../../bundle-example-lib/lib/ItemUtil');
 
 module.exports = {
   usage: 'get <item> [container]',
-  aliases: [ 'take', 'pick', 'loot' ],
+  aliases: [ 'take', 'pick' ],
   command : (state) => (args, player, arg0) => {
-    if (!args.length) {
-      return Broadcast.sayAt(player, 'Get what?');
-    }
+    if (!args.length) return Broadcast.sayAt(player, 'Get what?');
 
     if (!player.room) {
       return Broadcast.sayAt(player, 'You are floating in the nether, there is nothing to get.');

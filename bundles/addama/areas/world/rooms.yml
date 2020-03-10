@@ -2,3 +2,12 @@
   title: "Starting Room"
   coordinates: [0, 0, 0]
   description: "The starting room"
+- id: port
+  title: "Port"
+  coordinates: [0, 1, 0]
+  description: "A port"
+  script: "port"
+  metadata:
+    isPort: true
+    destinations: [ "world:start" ]
+    

@@ -4,7 +4,7 @@
  * General functions used on the ranvier-input-events bundle
  */
 
-const { Config } = require('ranvier');
+const { Config, Broadcast } = require('ranvier');
 
 /**
  * @param {string} name
