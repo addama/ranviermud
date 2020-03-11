@@ -82,7 +82,7 @@ function lookRoom(state, player) {
 		// map is 15 characters wide, room is formatted to 80 character width
 		// Broadcast.sayAt(player, '<yellow><b>' + sprintf('%-65s', room.title) + line1 + '</b></yellow>');
 		Broadcast.sayAt(player, '<yellow><b>' + room.title + line1 + '</b></yellow>');
-		B.sayAt(player, Broadcast.line(60) + Broadcast.line(5, ' ') + line2);
+		Broadcast.sayAt(player, Broadcast.line(60) + Broadcast.line(5, ' ') + line2);
 		Broadcast.sayAt(player, Broadcast.line(65, ' ') + '<yellow><b>' + line3 + '</b></yellow>');
 	}
 

@@ -1,36 +1,16 @@
 {
   "attributes": {
-    "strength": {
+    "farming": {
       "delta": 0,
-      "base": 17
+      "base": 0
     },
-    "agility": {
+    "extroversion": {
       "delta": 0,
-      "base": 10
-    },
-    "intellect": {
-      "delta": 0,
-      "base": 8
+      "base": 3
     },
     "stamina": {
       "delta": 0,
-      "base": 11
-    },
-    "health": {
-      "delta": 0,
-      "base": 154
-    },
-    "armor": {
-      "delta": 0,
-      "base": 0
-    },
-    "energy": {
-      "delta": 0,
       "base": 100
-    },
-    "critical": {
-      "delta": 0,
-      "base": 0
     }
   },
   "level": 1,
@@ -43,14 +23,13 @@
     "max": 16
   },
   "metadata": {
-    "class": "warrior"
+    "wallet": 1000
   },
-  "playerClass": "warrior",
-  "prompt": "[ %health.current%/%health.max% <b>hp</b> %energy.current%/%energy.max% <b>energy</b> ]",
+  "prompt": "> ",
   "quests": {
     "completed": [],
     "active": []
   },
-  "role": 2,
+  "role": 0,
   "equipment": {}
 }

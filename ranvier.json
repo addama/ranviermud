@@ -2,6 +2,7 @@
   "port": 8052,
   "bundles": [
 	"addama",
+	"addama-sailing",
 	"bundle-example-lib",
 	"telnet-networking"
   ],

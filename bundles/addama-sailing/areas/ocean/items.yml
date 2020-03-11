@@ -1,3 +1,4 @@
+# port_sign is used by rooms using the port behavior
 - id: port_sign
   name: "Sign: Port Destinations"
   roomDesc: "Sign: Port Destinations"

@@ -1,0 +1,15 @@
+---
+command: sail
+body: |
+  Charter a ship across the ocean to another port. Sea travel takes time, so 
+  
+  This command only works in Ports. To view the possible destinations, look for a sign containing destinations and a number. Type `travel <#>` to travel to that numbered destination, if there are any.
+  
+  Usage:
+  - sail <#>
+  - travel <#>      
+
+keywords:
+  - travel
+  - sail
+  - port

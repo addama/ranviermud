@@ -6,7 +6,8 @@
   title: "Port Andrews"
   coordinates: [10, 1, 0]
   description: "A port"
-  script: "port"
+  behaviors: 
+    port: true
   metadata: 
     isPort: true
     destinations: 
@@ -18,7 +19,8 @@
   title: "Port Jacobs"
   coordinates: [0, 1, 0]
   description: "A port"
-  script: "port"
+  behaviors: 
+    port: true
   metadata:
     isPort: true
     destinations: 
